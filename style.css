@@ -1,3 +1,10 @@
+/**
+ * FILEPATH: /home/mahe/Documents/mahe dev folder/nasa-api-pictures/style.css
+ * 
+ * This CSS file contains styles for a web page that displays NASA API pictures.
+ * It includes styles for the HTML structure, body, navigation, images container, cards, and more.
+ * The styles are responsive and adapt to different screen sizes.
+ */
 html {
     box-sizing: border-box;
   }
