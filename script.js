@@ -123,15 +123,14 @@ function saveFavorite(itemUrl) {
   });
 }
 
-// Remove item from Favorites
 function removeFavorite(itemUrl) {
   if (favorites[itemUrl]) {
     delete favorites[itemUrl];
-    // Set Favorites in localStorage
-    localStorage.setItem('nasaFavorites', JSON.stringify(favorites));
-    updateDOM('favorites');
+    localStorage.setItem('nasaFavorites', JSON.stringify(favorites)); // Save changes to localStorage
+    updateDOM('favorites'); // Update the DOM only if necessary
   }
 }
+
 
 // On Load
 getNasaPictures();
